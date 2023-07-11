@@ -469,6 +469,16 @@ body.nav-active { overflow: hidden; }
   50% { transform: translateY(30px); }
 }
 
+
+.box {
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+.box:hover {
+  transform: scale(1.7);
+}
+
 .has-bg-image {
   background-repeat: no-repeat;
   background-size: cover;
@@ -515,7 +525,9 @@ body.nav-active { overflow: hidden; }
 
 .icon-wrapper ion-icon:last-child { right: 10px; }
 
-
+.filtered-image {
+  filter: brightness(50%);
+}
 
 
 
