@@ -435,6 +435,8 @@ body.nav-active { overflow: hidden; }
   aspect-ratio: var(--width) / var(--height);
   overflow: hidden;
   background-color: var(--eerie-black-4);
+  width: 100px;
+  height: 100px;
 }
 
 .btn-text {
