@@ -954,7 +954,12 @@ body.nav-active { overflow: hidden; }
 .service .card-title { margin-block-end: 12px; }
 
 
-
+.p-300 {
+  padding-top: 300px;
+}
+.p-200 {
+  padding-top: 200px;
+}
 
 
 /*-----------------------------------*\
@@ -1768,7 +1773,9 @@ textarea.input-field {
 
   :is(.service, .event) .container { max-width: unset; }
 
-  :is(.service, .event) .grid-list { grid-template-columns: repeat(3, 1fr); }
+  :is(.service, .event) .grid-list { 
+    grid-template-columns: repeat(3, 1fr); 
+}
 
   :is(.service, .event) .grid-list li:last-child {
     grid-column: auto;
@@ -1905,8 +1912,35 @@ textarea.input-field {
 
 }
 
+/**
+ * responsive for between 768px and 425px screen
+ */
 
-
+@media (max-width: 768px) and (min-width :425px) {
+  .padding-adjustment {
+    gap: 400px;
+  }
+  .padding-adjustment-meze {
+    gap: 230px;
+  }
+  .padding-adjustment-icecek {
+    gap: 230px;
+  }
+}
+/**
+ * responsive for between 424px and 320px screen
+ */
+@media (max-width: 424px) and (min-width :320px) {
+  .padding-adjustment {
+    gap: 400px;
+  }
+  .padding-adjustment-meze {
+    gap: 230px;
+  }
+  .padding-adjustment-icecek {
+    gap: 230px;
+  }
+}
 
 
 /**
