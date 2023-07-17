@@ -1,4 +1,4 @@
 <p>
   Ado baba kebap salonu'nun internet sitesidir.
 </p>
-<a href='https://adobabakebap.netlify.app/#'>Ado Baba Kebap</a>
+<a href='https://www.adobabakebap.com/'>Ado Baba Kebap</a>
